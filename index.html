@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bendev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/African2.png" alt="" />
+      </div>
+         <div class="nav-bi">
+        <label for="menu-bar"><i class="fa fa-bars"></i></label>
+      </div>
+      <input type="checkbox" id="menu-bar" />
+      <ul class="nav-links">
+        
+           <label for="menu-bar">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Foods">Foods</a></li>
+        <li><a href="#Service">Service</a></li>
+        <li><a href="#Contacts">Contacts</a></li>
+      </ul>
+   
+      <div class="icon" id="searchIcon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </header>
+
+    <!-- Modal de recherche -->
+    <div class="search-modal" id="searchModal">
+      <div class="search-container">
+        <button class="close-btn" id="closeSearch">&times;</button>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Rechercher un plat..."
+        />
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+    <section id="Home">
+      <div class="banner">
+        <div class="content">
+   
+          <h1>
+            Soyez le Bienvenu chez maman colonel <br />
+            un
+            <div class="gradient-text">
+              <div
+                class="exp"
+                data-exp1="{resto.}"
+                data-exp2="{panafricain.}"
+              ></div>
+            </div>
+          </h1>
+     
+        </div>
+        <div class="picture">
+          <img src="images/Bouffe2.png" alt="" id="autoRotate" />
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <div class="title" id="autoShow">About</div>
+      <div class="container">
+        <div class="left scroll-animate-right">
+          <img src="images/girl1.png" alt="" />
+        </div>
+        <div class="right scroll-animate-up">
+          <h3>About Us</h3>
+          <p class="des">
+            Chez maman colonel, nous sommes passionnés par la cuisine africaine et
+            nous nous engageons à offrir une expérience culinaire authentique à
+            nos clients. Notre équipe de chefs talentueux prépare chaque plat
+            avec soin en utilisant des ingrédients frais et de qualité pour
+            garantir une explosion de saveurs à chaque bouchée.
+          </p>
+          <div class="stats">
+            <div class="table-box">
+              <span class="stat-number">+150</span>
+              <span class="stat-label">Dishes completed</span>
+            </div>
+            <div class="table-box">
+              <span class="stat-number">+15</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Foods">
+      <div class="title" id="autoShow">Ours Foods</div>
+      <div class="tab library">
+        <div class="animation-card">
+          <img src="images/food2.png" alt="" />
+          <div class="name">thieboudienne</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">$12.99</div>
+          <div class="add">
+            <button>
+              <a
+                href="https://wa.me/243982164959?text=I%20would%20like%20to%20order%20the%20dish"
+                >Order Now</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="animation-card">
+          <img src="images/food1.png" alt="" />
+          <div class="name">riz aux haricots et epinards</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">$12.99</div>
+          <div class="add">
+            <button>
+              <a
+                href="https://wa.me/243982164959?text=I%20would%20like%20to%20order%20the%20dish"
+                >Order Now</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="animation-card">
+          <img src="images/food3.png" alt="" />
+          <div class="name">Bananes braisées aux arachides</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">$12.99</div>
+          <div class="add">
+            <button>
+              <a
+                href="https://wa.me/243982164959?text=I%20would%20like%20to%20order%20the%20dish"
+                >Order Now</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="animation-card">
+          <img src="images/food4.png" alt="" />
+          <div class="name">riz au poulet tikka</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">$12.99</div>
+          <div class="add">
+            <button>
+              <a
+                href="https://wa.me/243982164959?text=I%20would%20like%20to%20order%20the%20dish"
+                >Order Now</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="animation-card">
+          <img src="images/food5.png" alt="" />
+          <div class="name">fufu au tilapia</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">$12.99</div>
+          <div class="add">
+            <button>
+              <a
+                href="https://wa.me/243982164959?text=I%20would%20like%20to%20order%20the%20dish"
+                >Order Now</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="animation-card">
+          <img src="images/food6.png" alt="" />
+          <div class="name">Brochette de porc</div>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="price">$12.99</div>
+          <div class="add">
+            <button>
+              <a
+                href="https://wa.me/243982164959?text=I%20would%20like%20to%20order%20the%20dish"
+                >Order Now</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Service">
+      <div class="title" id="autoShow">Our Services</div>
+      <div class="service-container">
+        <div class="service service-left">
+          <div class="service-card">
+            <img src="images/clock.png" alt="" />
+          </div>
+          <div class="service-text">
+            <h3>Support client 24/7</h3>
+            <p>
+              Notre équipe de support client est disponible 24/7 pour répondre à
+              toutes vos questions et résoudre vos problèmes.
+            </p>
+          </div>
+        </div>
+        <div class="service service-right">
+          <div class="service-card">
+            <img src="images/liv1.jpg" alt="" />
+          </div>
+          <div class="service-text">
+            <h3>Livraison rapide</h3>
+            <p>
+              Nous nous engageons à livrer votre commande rapidement et en toute
+              sécurité, afin que vous puissiez profiter de votre repas sans
+              attendre.
+            </p>
+          </div>
+        </div>
+        <div class="service service-left">
+          <div class="service-card">
+            <img src="images/event.jpg" alt="" />
+          </div>
+          <div class="service-text">
+            <h3>anniversaire</h3>
+            <p>
+              Nous offrons des services de planification d'anniversaire pour
+              rendre votre journée spéciale encore plus mémorable. Que ce soit
+              pour un anniversaire d'enfant ou d'adulte, nous pouvons vous aider
+              à créer une fête inoubliable avec une décoration personnalisée, ainsi qu'un délicieux gâteau
+              d'anniversaire.
+            </p>
+          </div>
+        </div>
+        <div class="service service-right">
+          <div class="service-card">
+            <img src="images/liv2.jpeg" alt="" />
+          </div>
+          <div class="service-text">
+            <h3>Livraison en boîte</h3>
+            <p>
+              Nous proposons un service de livraison en boîte pour vous
+              permettre de profiter de vos repas préférés dans le confort de
+              votre maison.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contacts">
+      <div class="title" id="autoShow">Contacts</div>
+      <div class="contactBox">
+        <iframe
+          class="map scroll-animate-right"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31826.25508581062!2d15.253504!3d-4.358143999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a31a693a1dc41%3A0xb2414cc827314b0c!2sMAMAN%20Colonel%20Ngaliema!5e0!3m2!1sen!2scd!4v1780837149924!5m2!1sen!2scd"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="contactInfo scroll-animate-up">
+          <h3>Contactez-nous</h3>
+
+          <div class="contact-group" >
+            <h4><i class="fa-solid fa-map-location-dot"></i> Adresse</h4>
+            <p>Maman Colonel Ngaliema<br />Kinshasa, RDC</p>
+          </div>
+
+          <div class="contact-group">
+            <h4><i class="fa-brands fa-whatsapp"></i> WhatsApp</h4>
+            <p>
+              <a href="https://wa.me/243999909672" target="_blank"
+                >+243 999 909 672</a
+              >
+            </p>
+          </div>
+
+          <div class="contact-group">
+            <h4><i class="fa-solid fa-clock"></i> Horaires</h4>
+            <p>Lun-Sam: 10h00 - 22h00<br />Dim: 12h00 - 21h00</p>
+          </div>
+             <div class="social-links">
+            <a href="https://youtube.com" target="_blank" title="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a
+              href="https://wa.me/243999909672"
+              target="_blank"
+              title="WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" title="Facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
