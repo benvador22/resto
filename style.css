@@ -18,6 +18,7 @@ body {
   font-family: "Poppins";
   font-weight: 500;
   font-style: normal;
+  background: #dce1e4;
 }
 
 header {
@@ -260,9 +261,6 @@ section {
 
 /* HOME SECTION*/
 
-#Home {
-  background: #dce1e4;
-}
 .banner {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -311,11 +309,6 @@ section {
 }
 
 /*ABOUT SECTION*/
-
-#About {
-  background: #dce1e4;
-  width: 100%;
-}
 
 .container .left img {
   width: 80%;
@@ -443,10 +436,6 @@ section {
 
 /*FOODS SECTION*/
 
-#Foods {
-  background: #dce1e4;
-}
-
 .library {
   margin-top: 50px;
   display: grid;
@@ -541,10 +530,6 @@ section {
 
 /* SERVICE SECTION*/
 
-#Service {
-  background: #dce1e4;
-}
-
 .service-container {
   margin-top: 50px;
   display: flex;
@@ -626,9 +611,7 @@ section {
   color: #d35400;
 }
 
-#Contacts {
-  background: #dce1e4;
-}
+/* CONTACT SECTION */
 
 .contactBox {
   margin-top: 50px;
@@ -744,6 +727,48 @@ header ul label {
   display: none;
 }
 
+/* TABLETTE ET ORDINATEUR*/
+
+@media screen and (max-width: 1024px) {
+  .banner .content h1 {
+    font-size: 2em;
+  }
+
+  .banner .picture img {
+    width: 80%;
+  }
+
+  .library {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header {
+    width: 90%;
+    padding: 15px 20px;
+    top: 20px;
+  }
+
+  .container .left img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .container {
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .container .right {
+    text-align: center;
+  }
+  .container .left::before {
+    width: 80%;
+  }
+
+  .container .left img {
+    width: 100%;
+  }
+}
 /* Mobile - 768px and below */
 @media screen and (max-width: 768px) {
   /* HEADER */
@@ -762,6 +787,15 @@ header ul label {
     display: block;
     font-size: 25px;
     cursor: pointer;
+    background: #ffffff26;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
   }
 
   header ul label {
@@ -852,7 +886,7 @@ header ul label {
   }
 
   .container .left::before {
-    width: 100%;
+    width: 90%;
   }
 
   .container .right {
@@ -889,8 +923,8 @@ header ul label {
   }
 
   .service .service-card img {
-    width: 220px;
-    height: 220px;
+    width: 240px;
+    height: 240px;
   }
 
   .service-text {
@@ -916,7 +950,6 @@ header ul label {
 
   .search-container {
     width: 95%;
-    padding: 20px;
   }
 
   .search-item {
@@ -933,6 +966,9 @@ header ul label {
     font-size: 1.8rem;
   }
 }
+
+/* TRES PETIT ECRANS*/
+
 @media screen and (max-width: 480px) {
   .banner .content h1 {
     font-size: 1.6rem;
