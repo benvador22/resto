@@ -40,7 +40,7 @@ function getProductFromCard(card) {
 function openWhatsAppOrder(product) {
   const imageUrl = new URL(product.img, window.location.href).href;
   const message = `Bonjour, je voudrais commander:\n\nProduit: ${product.name}\nPrix: ${product.price}\nImage: ${imageUrl}`;
-  const whatsappNumber = "243982164959";
+  const whatsappNumber = "243855585732"; // Remplacez par votre numéro WhatsApp
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 

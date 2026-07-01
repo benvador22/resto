@@ -52,7 +52,7 @@ header {
 }
 
 .logo img {
-  width: 100px;
+  width: 80px;
 }
 
 header ul {
@@ -275,44 +275,7 @@ section {
 .banner .content h1 {
   font-size: 3.6em;
   font-family: "Aboreto", cursive;
-  margin: 30px 0 15px;
-}
-
-.hero-subtitle {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: #3d3d3d;
-  margin-bottom: 25px;
-  max-width: 600px;
-}
-
-.hero-actions {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.hero-btn {
-  display: inline-block;
-  padding: 12px 20px;
-  border-radius: 999px;
-  background: #1f1f1f;
-  color: #fff;
-  font-weight: 600;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.hero-btn:hover {
-  transform: translateY(-2px);
-  background: #ff8c00;
-}
-
-.hero-btn.secondary {
-  background: #ff8c00;
-}
-
-.hero-btn.secondary:hover {
-  background: #1f1f1f;
+  margin: 30px 0;
 }
 
 .banner .picture {
@@ -817,7 +780,7 @@ header ul label {
   }
 
   .logo img {
-    width: 70px;
+    width: 60px;
   }
 
   header .nav-bi {
