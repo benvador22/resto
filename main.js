@@ -44,7 +44,7 @@ function openWhatsAppOrder(product) {
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
-  window.open(whatsappUrl, "_blank");
+  window.open(whatsappUrl, "_blank", "noopener,noreferrer");
 }
 
 // Gestionnaire pour les liens "Order Now" des cartes
