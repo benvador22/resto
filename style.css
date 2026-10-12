@@ -255,7 +255,7 @@ a {
 }
 
 section {
-  padding: 140px 10%;
+  padding: 145px 10%;
   min-height: 100vh;
 }
 
@@ -301,6 +301,25 @@ section {
   to {
     transform: rotate(360deg);
   }
+}
+.log button {
+  height: 50px;
+  width: 180px;
+  padding: 10px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  margin-top: 25px;
+  background: #000;
+}
+
+.log button a {
+  color: #fff;
 }
 
 .title {
