@@ -875,6 +875,7 @@ header ul label {
 
   .banner {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
   .banner .picture {
     grid-row-start: 1;
